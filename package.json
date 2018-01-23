@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preversion": "./check-git-status && npm run lint",
+    "preversion": "./check-git-status.sh && npm run lint",
     "postversion": "git push && git push --tags"
   },
   "private": true,
